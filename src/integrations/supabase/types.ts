@@ -443,7 +443,60 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      find_similar_images: {
+        Args: { target_hash: string; similarity_threshold?: number }
+        Returns: {
+          id: string
+          perceptual_hash: string
+          similarity_score: number
+          image_url: string
+          camera_module_id: string
+        }[]
+      }
+      mark_images_for_archival: {
+        Args: { archive_before_date: string }
+        Returns: {
+          id: string
+          image_url: string
+          archive_status: string
+        }[]
+      }
+      query_images_with_metrics: {
+        Args: {
+          p_camera_type?: string
+          p_scene_type?: string
+          p_test_campaign?: string
+          p_lighting_condition?: string
+          p_tags?: string[]
+          p_capture_time_start?: string
+          p_capture_time_end?: string
+          p_sharpness_min?: number
+          p_sharpness_max?: number
+          p_noise_min?: number
+          p_noise_max?: number
+          p_flare_index_min?: number
+          p_flare_index_max?: number
+          p_motion_blur_score_min?: number
+          p_motion_blur_score_max?: number
+        }
+        Returns: {
+          id: string
+          image_url: string
+          camera_module_id: string
+          camera_type_val: string
+          test_campaign_val: string
+          scene_type_val: string
+          lighting_condition_val: string
+          capture_time: string
+          tags: string[]
+          notes: string
+          perceptual_hash: string
+          created_by: string
+          created_at: string
+          updated_at: string
+          metrics: Json
+        }[]
+      }
     }
     Enums: {
       camera_type:
