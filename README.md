@@ -1,4 +1,4 @@
-# Welcome to your project
+# Welcome to my camera validation project
 
 ## How can I edit this code?
 
