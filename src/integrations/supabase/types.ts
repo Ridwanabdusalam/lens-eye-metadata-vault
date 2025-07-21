@@ -106,6 +106,125 @@ export type Database = {
           },
         ]
       }
+      image_metrics: {
+        Row: {
+          chromatic_aberration: number | null
+          contrast_ratio: number | null
+          created_at: string
+          depth_map_quality: number | null
+          dynamic_range: number | null
+          edge_acutance: number | null
+          exposure_level: number | null
+          eye_tracking_accuracy: number | null
+          flare_index: number | null
+          focus_score: number | null
+          id: string
+          image_id: string
+          motion_blur_score: number | null
+          noise: number | null
+          passthrough_alignment_error: number | null
+          saturation_deviation: number | null
+          sharpness: number | null
+          white_balance_error: number | null
+        }
+        Insert: {
+          chromatic_aberration?: number | null
+          contrast_ratio?: number | null
+          created_at?: string
+          depth_map_quality?: number | null
+          dynamic_range?: number | null
+          edge_acutance?: number | null
+          exposure_level?: number | null
+          eye_tracking_accuracy?: number | null
+          flare_index?: number | null
+          focus_score?: number | null
+          id?: string
+          image_id: string
+          motion_blur_score?: number | null
+          noise?: number | null
+          passthrough_alignment_error?: number | null
+          saturation_deviation?: number | null
+          sharpness?: number | null
+          white_balance_error?: number | null
+        }
+        Update: {
+          chromatic_aberration?: number | null
+          contrast_ratio?: number | null
+          created_at?: string
+          depth_map_quality?: number | null
+          dynamic_range?: number | null
+          edge_acutance?: number | null
+          exposure_level?: number | null
+          eye_tracking_accuracy?: number | null
+          flare_index?: number | null
+          focus_score?: number | null
+          id?: string
+          image_id?: string
+          motion_blur_score?: number | null
+          noise?: number | null
+          passthrough_alignment_error?: number | null
+          saturation_deviation?: number | null
+          sharpness?: number | null
+          white_balance_error?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "image_metrics_image_id_fkey"
+            columns: ["image_id"]
+            isOneToOne: false
+            referencedRelation: "images"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      images: {
+        Row: {
+          camera_module_id: string
+          camera_type: Database["public"]["Enums"]["camera_type"]
+          capture_time: string
+          created_at: string
+          created_by: string
+          id: string
+          image_url: string
+          lighting_condition: Database["public"]["Enums"]["lighting_condition"]
+          notes: string | null
+          scene_type: Database["public"]["Enums"]["scene_type"]
+          tags: string[] | null
+          test_campaign: string
+          updated_at: string
+        }
+        Insert: {
+          camera_module_id: string
+          camera_type: Database["public"]["Enums"]["camera_type"]
+          capture_time: string
+          created_at?: string
+          created_by: string
+          id?: string
+          image_url: string
+          lighting_condition: Database["public"]["Enums"]["lighting_condition"]
+          notes?: string | null
+          scene_type: Database["public"]["Enums"]["scene_type"]
+          tags?: string[] | null
+          test_campaign: string
+          updated_at?: string
+        }
+        Update: {
+          camera_module_id?: string
+          camera_type?: Database["public"]["Enums"]["camera_type"]
+          capture_time?: string
+          created_at?: string
+          created_by?: string
+          id?: string
+          image_url?: string
+          lighting_condition?: Database["public"]["Enums"]["lighting_condition"]
+          notes?: string | null
+          scene_type?: Database["public"]["Enums"]["scene_type"]
+          tags?: string[] | null
+          test_campaign?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       repository_analyses: {
         Row: {
           analysis_data: Json
@@ -291,7 +410,38 @@ export type Database = {
       [_ in never]: never
     }
     Enums: {
-      [_ in never]: never
+      camera_type:
+        | "RGB"
+        | "NIR"
+        | "Depth"
+        | "IR"
+        | "Eye_Tracking"
+        | "Passthrough"
+        | "CV_Module"
+        | "Multispectral"
+        | "Stereo"
+      lighting_condition:
+        | "D65"
+        | "tungsten"
+        | "sunlight"
+        | "fluorescent"
+        | "LED"
+        | "mixed_lighting"
+        | "candlelight"
+        | "monochromatic_IR"
+        | "low_lux"
+        | "HDR_lightbox"
+      scene_type:
+        | "indoor_lab"
+        | "outdoor"
+        | "darkroom"
+        | "studio"
+        | "dynamic_range_chart"
+        | "motion_tracking_scene"
+        | "calibration_rig"
+        | "low_light"
+        | "bright_backlight"
+        | "natural_daylight"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -418,6 +568,42 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      camera_type: [
+        "RGB",
+        "NIR",
+        "Depth",
+        "IR",
+        "Eye_Tracking",
+        "Passthrough",
+        "CV_Module",
+        "Multispectral",
+        "Stereo",
+      ],
+      lighting_condition: [
+        "D65",
+        "tungsten",
+        "sunlight",
+        "fluorescent",
+        "LED",
+        "mixed_lighting",
+        "candlelight",
+        "monochromatic_IR",
+        "low_lux",
+        "HDR_lightbox",
+      ],
+      scene_type: [
+        "indoor_lab",
+        "outdoor",
+        "darkroom",
+        "studio",
+        "dynamic_range_chart",
+        "motion_tracking_scene",
+        "calibration_rig",
+        "low_light",
+        "bright_backlight",
+        "natural_daylight",
+      ],
+    },
   },
 } as const
