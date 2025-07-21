@@ -14,6 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
+      audit_log: {
+        Row: {
+          action: string
+          changed_at: string
+          changed_by: string | null
+          id: string
+          new_values: Json | null
+          old_values: Json | null
+          record_id: string
+          table_name: string
+        }
+        Insert: {
+          action: string
+          changed_at?: string
+          changed_by?: string | null
+          id?: string
+          new_values?: Json | null
+          old_values?: Json | null
+          record_id: string
+          table_name: string
+        }
+        Update: {
+          action?: string
+          changed_at?: string
+          changed_by?: string | null
+          id?: string
+          new_values?: Json | null
+          old_values?: Json | null
+          record_id?: string
+          table_name?: string
+        }
+        Relationships: []
+      }
       code_transformations: {
         Row: {
           analysis_id: string
@@ -188,6 +221,7 @@ export type Database = {
           image_url: string
           lighting_condition: Database["public"]["Enums"]["lighting_condition"]
           notes: string | null
+          perceptual_hash: string | null
           scene_type: Database["public"]["Enums"]["scene_type"]
           tags: string[] | null
           test_campaign: string
@@ -203,6 +237,7 @@ export type Database = {
           image_url: string
           lighting_condition: Database["public"]["Enums"]["lighting_condition"]
           notes?: string | null
+          perceptual_hash?: string | null
           scene_type: Database["public"]["Enums"]["scene_type"]
           tags?: string[] | null
           test_campaign: string
@@ -218,6 +253,7 @@ export type Database = {
           image_url?: string
           lighting_condition?: Database["public"]["Enums"]["lighting_condition"]
           notes?: string | null
+          perceptual_hash?: string | null
           scene_type?: Database["public"]["Enums"]["scene_type"]
           tags?: string[] | null
           test_campaign?: string
