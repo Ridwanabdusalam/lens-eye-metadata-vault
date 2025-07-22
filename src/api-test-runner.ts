@@ -105,10 +105,6 @@ class APITester {
   }
 
   private async testImageUpload() {
-    if (!this.authToken) {
-      this.addResult('Image Upload', 'POST', 'SKIP', 'No auth token available');
-      return;
-    }
 
     try {
       console.log('📸 Testing Image Upload...');
@@ -167,10 +163,6 @@ class APITester {
   }
 
   private async testMetricsIngestion() {
-    if (!this.authToken) {
-      this.addResult('Metrics Ingestion', 'POST', 'SKIP', 'No auth token available');
-      return;
-    }
 
     try {
       console.log('📊 Testing Metrics Ingestion...');
@@ -230,10 +222,6 @@ class APITester {
   }
 
   private async testImageQuerying() {
-    if (!this.authToken) {
-      this.addResult('Image Querying', 'GET', 'SKIP', 'No auth token available');
-      return;
-    }
 
     try {
       console.log('🔍 Testing Image Querying...');
@@ -262,10 +250,6 @@ class APITester {
   }
 
   private async testTagUpdates() {
-    if (!this.authToken) {
-      this.addResult('Tag Updates', 'POST', 'SKIP', 'No auth token available');
-      return;
-    }
 
     try {
       console.log('🏷️ Testing Tag Updates...');
@@ -311,10 +295,6 @@ class APITester {
   }
 
   private async testDatasetExport() {
-    if (!this.authToken) {
-      this.addResult('Dataset Export', 'POST', 'SKIP', 'No auth token available');
-      return;
-    }
 
     try {
       console.log('📦 Testing Dataset Export...');
@@ -352,10 +332,6 @@ class APITester {
   }
 
   private async testDeduplication() {
-    if (!this.authToken) {
-      this.addResult('Deduplication', 'POST', 'SKIP', 'No auth token available');
-      return;
-    }
 
     try {
       console.log('🔄 Testing Deduplication...');
