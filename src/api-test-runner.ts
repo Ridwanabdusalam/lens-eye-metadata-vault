@@ -57,7 +57,7 @@ class APITester {
         this.addResult('Authentication', 'GET', 'PASS', 'Successfully retrieved auth token from existing session');
       } else {
         // Try to sign up a test user
-        const testEmail = `test-${Date.now()}@example.com`;
+        const testEmail = 'ridwanabdsalam@gmail.com';
         const testPassword = 'testpassword123';
         
         const { data, error: signUpError } = await supabase.auth.signUp({
