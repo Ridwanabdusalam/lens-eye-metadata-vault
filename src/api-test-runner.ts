@@ -64,7 +64,30 @@ class APITester {
         });
         
         if (signUpError) {
-          this.addResult('Authentication', 'POST', 'FAIL', `Sign up failed: ${signUpError.message}`);
+          // If signup fails because user exists, try to sign in instead
+          if (signUpError.message.includes('User already registered') || signUpError.message.includes('already exists')) {
+            console.log('User already exists, attempting to sign in...');
+            
+            const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
+              email: testEmail,
+              password: testPassword,
+            });
+            
+            if (signInError) {
+              this.addResult('Authentication', 'POST', 'FAIL', `Sign in failed: ${signInError.message}`);
+              return;
+            }
+            
+            if (signInData.session?.access_token) {
+              this.authToken = signInData.session.access_token;
+              this.testUserId = signInData.session.user.id;
+              this.addResult('Authentication', 'POST', 'PASS', 'Successfully signed in existing user and got auth token');
+            } else {
+              this.addResult('Authentication', 'POST', 'FAIL', 'Sign in succeeded but no session token received');
+            }
+          } else {
+            this.addResult('Authentication', 'POST', 'FAIL', `Sign up failed: ${signUpError.message}`);
+          }
           return;
         }
         
