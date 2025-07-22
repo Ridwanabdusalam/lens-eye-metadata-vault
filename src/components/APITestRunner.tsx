@@ -3,8 +3,9 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Loader2, Play, CheckCircle, XCircle, SkipForward } from 'lucide-react';
+import { Loader2, Play, CheckCircle, XCircle, SkipForward, ArrowLeft } from 'lucide-react';
 import { runAPITests } from '@/api-test-runner';
+import { useNavigate } from 'react-router-dom';
 
 interface TestResult {
   endpoint: string;
@@ -15,6 +16,7 @@ interface TestResult {
 }
 
 export const APITestRunner: React.FC = () => {
+  const navigate = useNavigate();
   const [isRunning, setIsRunning] = useState(false);
   const [results, setResults] = useState<TestResult[]>([]);
   const [hasRun, setHasRun] = useState(false);
@@ -58,6 +60,17 @@ export const APITestRunner: React.FC = () => {
 
   return (
     <div className="container mx-auto p-6 space-y-6">
+      <div className="flex items-center gap-4 mb-6">
+        <Button 
+          variant="outline" 
+          onClick={() => navigate('/')}
+          className="flex items-center gap-2"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Dashboard
+        </Button>
+      </div>
+      
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
