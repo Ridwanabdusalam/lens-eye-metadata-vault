@@ -36,7 +36,7 @@ test('1. Image Upload & Storage', async () => {
     body: form,
   });
 
-  const data = await response.json();
+  const data = await response.json() as { message: string };
 
   expect(response.status).toBe(401); // Expecting auth error due to placeholder token
   expect(data.message).toBe("Invalid JWT");
@@ -61,7 +61,7 @@ test('2. Quality Metrics Ingestion', async () => {
     body: JSON.stringify(requestBody),
   });
 
-  const data = await response.json();
+  const data = await response.json() as { message: string };
 
   expect(response.status).toBe(401);
   expect(data.message).toBe("Invalid JWT");
@@ -75,7 +75,7 @@ test('3. Advanced Image Querying', async () => {
     },
   });
 
-  const data = await response.json();
+  const data = await response.json() as { message: string };
 
   expect(response.status).toBe(401);
   expect(data.message).toBe("Invalid JWT");
@@ -98,7 +98,7 @@ test('4. Tag & Metadata Updates', async () => {
     body: JSON.stringify(requestBody),
   });
 
-  const data = await response.json();
+  const data = await response.json() as { message: string };
 
   expect(response.status).toBe(401);
   expect(data.message).toBe("Invalid JWT");
@@ -122,7 +122,7 @@ test('5. Dataset Export', async () => {
     body: JSON.stringify(requestBody),
   });
 
-  const data = await response.json();
+  const data = await response.json() as { message: string };
 
   expect(response.status).toBe(401);
   expect(data.message).toBe("Invalid JWT");
@@ -143,7 +143,7 @@ test('6. Duplicate Detection & Cleanup', async () => {
     body: JSON.stringify(requestBody),
   });
 
-  const data = await response.json();
+  const data = await response.json() as { message: string };
 
   expect(response.status).toBe(401);
   expect(data.message).toBe("Invalid JWT");
