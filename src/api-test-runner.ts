@@ -20,25 +20,23 @@ class APITester {
     // Step 1: Test Authentication
     await this.testAuthentication();
     
-    if (this.authToken) {
-      // Step 2: Test Image Upload
-      await this.testImageUpload();
-      
-      // Step 3: Test Metrics Ingestion
-      await this.testMetricsIngestion();
-      
-      // Step 4: Test Image Querying
-      await this.testImageQuerying();
-      
-      // Step 5: Test Tag Updates
-      await this.testTagUpdates();
-      
-      // Step 6: Test Dataset Export
-      await this.testDatasetExport();
-      
-      // Step 7: Test Deduplication
-      await this.testDeduplication();
-    }
+    // Step 2: Test Image Upload
+    await this.testImageUpload();
+    
+    // Step 3: Test Metrics Ingestion
+    await this.testMetricsIngestion();
+    
+    // Step 4: Test Image Querying
+    await this.testImageQuerying();
+    
+    // Step 5: Test Tag Updates
+    await this.testTagUpdates();
+    
+    // Step 6: Test Dataset Export
+    await this.testDatasetExport();
+    
+    // Step 7: Test Deduplication
+    await this.testDeduplication();
     
     this.printResults();
     return this.results;
