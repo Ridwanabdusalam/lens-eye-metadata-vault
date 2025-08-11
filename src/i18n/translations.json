@@ -1,0 +1,1159 @@
+{
+  "APITestRunner.test_all_api_endpoints_to_ensure_they_re_working_correctly": {
+    "en": "Test all API endpoints to ensure they're working correctly",
+    "es": "Prueba todos los puntos finales de la API para asegurarte de que funcionen correctamente",
+    "fr": "Testez tous les points de terminaison de l'API pour vous assurer qu'ils fonctionnent correctement",
+    "de": "Testen Sie alle API-Endpunkte, um sicherzustellen, dass sie korrekt funktionieren",
+    "ar": "اختبر جميع نقاط نهاية API للتأكد من أنها تعمل بشكل صحيح"
+  },
+  "Index.generate_exports_with_signed_urls_and_comprehensive_metadata_in_json_csv_formats_": {
+    "en": "Generate exports with signed URLs and comprehensive metadata in JSON/CSV formats.",
+    "es": "Genera exportaciones con URLs firmadas y metadatos completos en formatos JSON/CSV.",
+    "fr": "Générez des exportations avec des URL signées et des métadonnées complètes aux formats JSON/CSV.",
+    "de": "Erstellen Sie Exporte mit signierten URLs und umfassenden Metadaten in den Formaten JSON/CSV.",
+    "ar": "إنشاء صادرات مع عناوين URL موقعة وبيانات وصفية شاملة بتنسيقات JSON/CSV."
+  },
+  "Index.track_sharpness__noise__flare__chromatic_aberration__and_10__other_metrics_": {
+    "en": "Track sharpness, noise, flare, chromatic aberration, and 10+ other metrics.",
+    "es": "Rastrea nitidez, ruido, destello, aberración cromática y más de 10 métricas adicionales.",
+    "fr": "Suivez la netteté, le bruit, l'éblouissement, l'aberration chromatique et plus de 10 autres métriques.",
+    "de": "Verfolgen Sie Schärfe, Rauschen, Blendenfleck, chromatische Aberration und über 10 weitere Metriken.",
+    "ar": "تتبع الحدة، الضوضاء، الوهج، الانحراف اللوني، وأكثر من 10 مقاييس أخرى."
+  },
+  "api-test-runner._____success_rate____passed___0___math_round__passed____passed___failed_____100____0__": {
+    "en": "ð Success Rate: ${passed > 0 ? Math.round((passed / (passed + failed)) * 100) : 0}%",
+    "es": "ð Tasa de éxito: ${passed > 0 ? Math.round((passed / (passed + failed)) * 100) : 0}%",
+    "fr": "ð Taux de réussite : ${passed > 0 ? Math.round((passed / (passed + failed)) * 100) : 0}%",
+    "de": "ð Erfolgsrate: ${passed > 0 ? Math.round((passed / (passed + failed)) * 100) : 0}%",
+    "ar": "ð معدل النجاح: ${passed > 0 ? Math.round((passed / (passed + failed)) * 100) : 0}%"
+  },
+  "Index.filter_by_camera_type__scene__metrics_thresholds__date_ranges__and_tags_": {
+    "en": "Filter by camera type, scene, metrics thresholds, date ranges, and tags.",
+    "es": "Filtra por tipo de cámara, escena, umbrales de métricas, rangos de fechas y etiquetas.",
+    "fr": "Filtrez par type de caméra, scène, seuils de métriques, plages de dates et tags.",
+    "de": "Filtern Sie nach Kameratyp, Szene, Metrikschwellen, Datumsbereichen und Tags.",
+    "ar": "تصفية حسب نوع الكاميرا، المشهد، عتبات المقاييس، نطاقات التواريخ، والعلامات."
+  },
+  "api.this_is_a_test_upload_from_the_automated_test_suite_": {
+    "en": "This is a test upload from the automated test suite.",
+    "es": "Esta es una carga de prueba del conjunto de pruebas automatizado.",
+    "fr": "Ceci est un téléchargement de test de la suite de tests automatisée.",
+    "de": "Dies ist ein Test-Upload aus der automatisierten Test-Suite.",
+    "ar": "هذا تحميل اختبار من مجموعة الاختبار الآلي."
+  },
+  "api-test-runner.successfully_queried_images__found___data_images_length__images_": {
+    "en": "Successfully queried images. Found ${data.images.length} images.",
+    "es": "Consultó imágenes con éxito. Se encontraron ${data.images.length} imágenes.",
+    "fr": "Images interrogées avec succès. Trouvé ${data.images.length} images.",
+    "de": "Bilder erfolgreich abgefragt. Gefunden ${data.images.length} Bilder.",
+    "ar": "تم استعلام الصور بنجاح. تم العثور على ${data.images.length} صور."
+  },
+  "select.data__side_bottom__translate_y_1_data__side_left___translate_x_1_data__side_right__translate_x_1_data__side_top___translate_y_1": {
+    "en": "data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1"
+  },
+  "navigation-menu.left_0_top_0_w_full_data__motion__from___animate_in_data__motion__to___animate_out_data__motion__from___fade_in_data__motion__to___fade_out_data__motion_from_end__slide_in_from_right_52_data__motion_from_start__slide_in_from_left_52_data__motion_to_end__slide_out_to_right_52_data__motion_to_start__slide_out_to_left_52_md_absolute_md_w_auto": {
+    "en": "left-0 top-0 w-full data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 md:absolute md:w-auto ",
+    "es": "left-0 top-0 w-full data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 md:absolute md:w-auto",
+    "fr": "left-0 top-0 w-full data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 md:absolute md:w-auto",
+    "de": "left-0 top-0 w-full data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 md:absolute md:w-auto",
+    "ar": "left-0 top-0 w-full data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 md:absolute md:w-auto"
+  },
+  "tabs.mt_2_ring_offset_background_focus_visible_outline_none_focus_visible_ring_2_focus_visible_ring_ring_focus_visible_ring_offset_2": {
+    "en": "mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+  },
+  "Index.store_images_with_camera_module_info__test_campaigns__scene_types__and_custom_tags_": {
+    "en": "Store images with camera module info, test campaigns, scene types, and custom tags.",
+    "es": "Almacena imágenes con información del módulo de cámara, campañas de prueba, tipos de escena y etiquetas personalizadas.",
+    "fr": "Stockez des images avec des informations sur le module de caméra, des campagnes de test, des types de scène et des tags personnalisés.",
+    "de": "Speichern Sie Bilder mit Kameramodul-Informationen, Testkampagnen, Szenentypen und benutzerdefinierten Tags.",
+    "ar": "تخزين الصور مع معلومات وحدة الكاميرا، حملات الاختبار، أنواع المشاهد، والعلامات المخصصة."
+  },
+  "Index.use_perceptual_hashing_to_find_similar_images_with_configurable_thresholds_": {
+    "en": "Use perceptual hashing to find similar images with configurable thresholds.",
+    "es": "Utiliza el hashing perceptual para encontrar imágenes similares con umbrales configurables.",
+    "fr": "Utilisez le hachage perceptuel pour trouver des images similaires avec des seuils configurables.",
+    "de": "Verwenden Sie perceptual hashing, um ähnliche Bilder mit konfigurierbaren Schwellenwerten zu finden.",
+    "ar": "استخدم التجزئة الإدراكية للعثور على صور مماثلة مع عتبات قابلة للتكوين."
+  },
+  "api-test-runner.successfully_retrieved_auth_token_from_existing_session": {
+    "en": "Successfully retrieved auth token from existing session",
+    "es": "Token de autenticación recuperado con éxito de la sesión existente",
+    "fr": "Jeton d'authentification récupéré avec succès à partir de la session existante",
+    "de": "Authentifizierungstoken erfolgreich aus bestehender Sitzung abgerufen",
+    "ar": "تم استرداد رمز المصادقة بنجاح من الجلسة الحالية"
+  },
+  "sidebar.__sidebar_cookie_name____openstate___path____max_age___sidebar_cookie_max_age_": {
+    "en": "${SIDEBAR_COOKIE_NAME}=${openState}; path=/; max-age=${SIDEBAR_COOKIE_MAX_AGE}"
+  },
+  "sidebar.__data_side_left_____cursor_w_resize___data_side_right_____cursor_e_resize": {
+    "en": "[[data-side=left]_&]:cursor-w-resize [[data-side=right]_&]:cursor-e-resize"
+  },
+  "types.type_defaultschema___databasewithoutinternals_extract": {
+    "en": "type DefaultSchema = DatabaseWithoutInternals[Extract"
+  },
+  "index.id__perceptual_hash__image_url__camera_module_id__test_campaign__created_at": {
+    "en": "id, perceptual_hash, image_url, camera_module_id, test_campaign, created_at"
+  },
+  "sidebar.__data_side_left__data_state_collapsed_____cursor_e_resize___data_side_right__data_state_collapsed_____cursor_w_resize": {
+    "en": "[[data-side=left][data-state=collapsed]_&]:cursor-e-resize [[data-side=right][data-state=collapsed]_&]:cursor-w-resize"
+  },
+  "api-test-runner.successfully_signed_in_existing_user_and_got_auth_token": {
+    "en": "Successfully signed in existing user and got auth token",
+    "es": "Usuario existente inició sesión con éxito y obtuvo el token de autenticación",
+    "fr": "Utilisateur existant connecté avec succès et a obtenu le jeton d'authentification",
+    "de": "Bestehender Benutzer erfolgreich angemeldet und Authentifizierungstoken erhalten",
+    "ar": "تم تسجيل دخول المستخدم الحالي بنجاح وحصل على رمز المصادقة"
+  },
+  "NotFound.404_error__user_attempted_to_access_non_existent_route_": {
+    "en": "404 Error: User attempted to access non-existent route:",
+    "es": "Error 404: El usuario intentó acceder a una ruta inexistente:",
+    "fr": "Erreur 404 : L'utilisateur a tenté d'accéder à une route inexistante :",
+    "de": "404 Fehler: Benutzer hat versucht, auf eine nicht vorhandene Route zuzugreifen:",
+    "ar": "خطأ 404: حاول المستخدم الوصول إلى مسار غير موجود:"
+  },
+  "api-test-runner.__statusicon____result_method____result_endpoint_____result_message_": {
+    "en": "${statusIcon} ${result.method} ${result.endpoint}: ${result.message}"
+  },
+  "api-test-runner.response____json_stringify_result_responsedata__null__2__": {
+    "en": "   Response: ${JSON.stringify(result.responseData, null, 2)}",
+    "es": "   Respuesta: ${JSON.stringify(result.responseData, null, 2)}",
+    "fr": "   Réponse : ${JSON.stringify(result.responseData, null, 2)}",
+    "de": "   Antwort: ${JSON.stringify(result.responseData, null, 2)}",
+    "ar": "   الاستجابة: ${JSON.stringify(result.responseData, null, 2)}"
+  },
+  "Index.professional_camera_testing_and_validation_platform_for_mixed_reality_applications": {
+    "en": "Professional camera testing and validation platform for mixed reality applications",
+    "es": "Plataforma profesional de pruebas y validación de cámaras para aplicaciones de realidad mixta",
+    "fr": "Plateforme professionnelle de test et de validation de caméras pour applications de réalité mixte",
+    "de": "Professionelle Kamera-Test- und Validierungsplattform für Anwendungen der gemischten Realität",
+    "ar": "منصة اختبار وتحقق للكاميرات الاحترافية لتطبيقات الواقع المختلط"
+  },
+  "Index.____various_scene_types_and_lighting_conditions": {
+    "en": "â¢ Various scene types and lighting conditions",
+    "es": "• Varios tipos de escenas y condiciones de iluminación",
+    "fr": "• Divers types de scènes et conditions d'éclairage",
+    "de": "• Verschiedene Szenentypen und Lichtverhältnisse",
+    "ar": "• أنواع مختلفة من المشاهد وظروف الإضاءة"
+  },
+  "carousel.usecarousel_must_be_used_within_a__carousel___": {
+    "en": "useCarousel must be used within a <Carousel />",
+    "es": "useCarousel debe usarse dentro de un <Carousel />",
+    "fr": "useCarousel doit être utilisé dans un <Carousel />",
+    "de": "useCarousel muss innerhalb eines <Carousel /> verwendet werden",
+    "ar": "يجب استخدام useCarousel داخل <Carousel />"
+  },
+  "carousel._top_12_left_1_2__translate_x_1_2_rotate_90": {
+    "en": "-top-12 left-1/2 -translate-x-1/2 rotate-90"
+  },
+  "carousel._bottom_12_left_1_2__translate_x_1_2_rotate_90": {
+    "en": "-bottom-12 left-1/2 -translate-x-1/2 rotate-90"
+  },
+  "chart._____________________________hideindicator_____": {
+    "en": ") : (\n                      !hideIndicator && ("
+  },
+  "chart.usechart_must_be_used_within_a__chartcontainer___": {
+    "en": "useChart must be used within a <ChartContainer />",
+    "es": "useChart debe usarse dentro de un <ChartContainer />",
+    "fr": "useChart doit être utilisé dans un <ChartContainer />",
+    "de": "useChart muss innerhalb eines <ChartContainer /> verwendet werden",
+    "ar": "يجب استخدام useChart داخل <ChartContainer />"
+  },
+  "command.max_h__300px__overflow_y_auto_overflow_x_hidden": {
+    "en": "max-h-[300px] overflow-y-auto overflow-x-hidden"
+  },
+  "form.useformfield_should_be_used_within__formfield_": {
+    "en": "useFormField should be used within <FormField>",
+    "es": "useFormField debe usarse dentro de <FormField>",
+    "fr": "useFormField doit être utilisé dans <FormField>",
+    "de": "useFormField sollte innerhalb von <FormField> verwendet werden",
+    "ar": "يجب استخدام useFormField داخل <FormField>"
+  },
+  "input-otp.z_10_ring_2_ring_ring_ring_offset_background": {
+    "en": "z-10 ring-2 ring-ring ring-offset-background"
+  },
+  "sidebar.usesidebar_must_be_used_within_a_sidebarprovider_": {
+    "en": "useSidebar must be used within a SidebarProvider.",
+    "es": "useSidebar debe usarse dentro de un SidebarProvider.",
+    "fr": "useSidebar doit être utilisé dans un SidebarProvider.",
+    "de": "useSidebar muss innerhalb eines SidebarProvider verwendet werden.",
+    "ar": "يجب استخدام useSidebar داخل SidebarProvider."
+  },
+  "sidebar.after_absolute_after__inset_2_after_md_hidden": {
+    "en": "after:absolute after:-inset-2 after:md:hidden"
+  },
+  "index.authorization__x_client_info__apikey__content_type": {
+    "en": "authorization, x-client-info, apikey, content-type"
+  },
+  "index.authorization__x_client_info__apikey__content_type_1": {
+    "en": "authorization, x-client-info, apikey, content-type"
+  },
+  "index.authorization__x_client_info__apikey__content_type_2": {
+    "en": "authorization, x-client-info, apikey, content-type"
+  },
+  "index.authorization__x_client_info__apikey__content_type_3": {
+    "en": "authorization, x-client-info, apikey, content-type"
+  },
+  "index.authorization__x_client_info__apikey__content_type_4": {
+    "en": "authorization, x-client-info, apikey, content-type"
+  },
+  "index.authorization__x_client_info__apikey__content_type_5": {
+    "en": "authorization, x-client-info, apikey, content-type"
+  },
+  "api-test-runner.user_already_exists__attempting_to_sign_in___": {
+    "en": "User already exists, attempting to sign in...",
+    "es": "El usuario ya existe, intentando iniciar sesión...",
+    "fr": "L'utilisateur existe déjà, tentative de connexion...",
+    "de": "Benutzer existiert bereits, versuche sich anzumelden...",
+    "ar": "المستخدم موجود بالفعل، محاولة تسجيل الدخول..."
+  },
+  "api-test-runner.sign_in_failed____signinerror_message_": {
+    "en": "Sign in failed: ${signInError.message}",
+    "es": "Error al iniciar sesión: ${signInError.message}",
+    "fr": "Échec de la connexion : ${signInError.message}",
+    "de": "Anmeldung fehlgeschlagen: ${signInError.message}",
+    "ar": "فشل تسجيل الدخول: ${signInError.message}"
+  },
+  "api-test-runner.sign_in_succeeded_but_no_session_token_received": {
+    "en": "Sign in succeeded but no session token received",
+    "es": "Inicio de sesión exitoso pero no se recibió token de sesión",
+    "fr": "Connexion réussie mais aucun jeton de session reçu",
+    "de": "Anmeldung erfolgreich, aber kein Sitzungstoken erhalten",
+    "ar": "تم تسجيل الدخول بنجاح ولكن لم يتم استلام رمز الجلسة"
+  },
+  "api-test-runner.sign_up_failed____signuperror_message_": {
+    "en": "Sign up failed: ${signUpError.message}",
+    "es": "Error al registrarse: ${signUpError.message}",
+    "fr": "Échec de l'inscription : ${signUpError.message}",
+    "de": "Registrierung fehlgeschlagen: ${signUpError.message}",
+    "ar": "فشل التسجيل: ${signUpError.message}"
+  },
+  "api-test-runner.successfully_created_test_user_and_got_auth_token": {
+    "en": "Successfully created test user and got auth token",
+    "es": "Usuario de prueba creado con éxito y se obtuvo el token de autenticación",
+    "fr": "Utilisateur de test créé avec succès et jeton d'authentification obtenu",
+    "de": "Testbenutzer erfolgreich erstellt und Authentifizierungstoken erhalten",
+    "ar": "تم إنشاء مستخدم الاختبار بنجاح وتم الحصول على رمز المصادقة"
+  },
+  "api-test-runner.user_created_but_needs_email_confirmation": {
+    "en": "User created but needs email confirmation",
+    "es": "Usuario creado pero necesita confirmación por correo electrónico",
+    "fr": "Utilisateur créé mais nécessite une confirmation par e-mail",
+    "de": "Benutzer erstellt, aber benötigt eine E-Mail-Bestätigung",
+    "ar": "تم إنشاء المستخدم ولكنه يحتاج إلى تأكيد البريد الإلكتروني"
+  },
+  "api-test-runner.no_test_images_available_for_metrics_ingestion": {
+    "en": "No test images available for metrics ingestion",
+    "es": "No hay imágenes de prueba disponibles para la ingesta de métricas",
+    "fr": "Aucune image de test disponible pour l'ingestion des métriques",
+    "de": "Keine Testbilder für die Metrikaufnahme verfügbar",
+    "ar": "لا توجد صور اختبار متاحة لاستيعاب المقاييس"
+  },
+  "api-test-runner.no_test_images_available_for_tag_updates": {
+    "en": "No test images available for tag updates",
+    "es": "No hay imágenes de prueba disponibles para actualizaciones de etiquetas",
+    "fr": "Aucune image de test disponible pour les mises à jour des balises",
+    "de": "Keine Testbilder für Tag-Updates verfügbar",
+    "ar": "لا توجد صور اختبار متاحة لتحديثات العلامات"
+  },
+  "api-test-runner.successfully_updated_tags_and_notes": {
+    "en": "Successfully updated tags and notes",
+    "es": "Etiquetas y notas actualizadas con éxito",
+    "fr": "Balises et notes mises à jour avec succès",
+    "de": "Tags und Notizen erfolgreich aktualisiert",
+    "ar": "تم تحديث العلامات والملاحظات بنجاح"
+  },
+  "api-test-runner.successfully_initiated_dataset_export": {
+    "en": "Successfully initiated dataset export",
+    "es": "Exportación de conjunto de datos iniciada con éxito",
+    "fr": "Exportation de l'ensemble de données initiée avec succès",
+    "de": "Datensatzexport erfolgreich initiiert",
+    "ar": "تم بدء تصدير مجموعة البيانات بنجاح"
+  },
+  "api-test-runner.successfully_initiated_deduplication_job": {
+    "en": "Successfully initiated deduplication job",
+    "es": "Trabajo de deduplicación iniciado con éxito",
+    "fr": "Tâche de déduplication initiée avec succès",
+    "de": "Duplizierungsjob erfolgreich initiiert",
+    "ar": "تم بدء مهمة إزالة التكرار بنجاح"
+  },
+  "Index.upload_test_images_with_comprehensive_metadata": {
+    "en": "Upload test images with comprehensive metadata",
+    "es": "Subir imágenes de prueba con metadatos completos",
+    "fr": "Télécharger des images de test avec des métadonnées complètes",
+    "de": "Testbilder mit umfassenden Metadaten hochladen",
+    "ar": "تحميل صور الاختبار مع بيانات وصفية شاملة"
+  },
+  "Index.search_and_filter_images_by_multiple_criteria": {
+    "en": "Search and filter images by multiple criteria",
+    "es": "Buscar y filtrar imágenes por múltiples criterios",
+    "fr": "Rechercher et filtrer des images par plusieurs critères",
+    "de": "Bilder nach mehreren Kriterien suchen und filtern",
+    "ar": "البحث وتصفية الصور باستخدام معايير متعددة"
+  },
+  "Index.____19_test_images_across_9_camera_types": {
+    "en": "â¢ 19 test images across 9 camera types",
+    "es": "• 19 imágenes de prueba en 9 tipos de cámaras",
+    "fr": "• 19 images de test sur 9 types de caméras",
+    "de": "• 19 Testbilder über 9 Kameratypen",
+    "ar": "• 19 صورة اختبار عبر 9 أنواع من الكاميرات"
+  },
+  "Index.____rgb__ir__depth__eye_tracking__and_more": {
+    "en": "â¢ RGB, IR, Depth, Eye Tracking, and more",
+    "es": "• RGB, IR, Profundidad, Seguimiento ocular y más",
+    "fr": "• RGB, IR, Profondeur, Suivi oculaire et plus",
+    "de": "• RGB, IR, Tiefe, Augenverfolgung und mehr",
+    "ar": "• RGB، IR، العمق، تتبع العين والمزيد"
+  },
+  "Index.____realistic_quality_metrics_included": {
+    "en": "â¢ Realistic quality metrics included",
+    "es": "• Métricas de calidad realistas incluidas",
+    "fr": "• Indicateurs de qualité réalistes inclus",
+    "de": "• Realistische Qualitätsmetriken enthalten",
+    "ar": "• مقاييس جودة واقعية متضمنة"
+  },
+  "Index.api_endpoints": {
+    "en": "API Endpoints",
+    "es": "Puntos finales de API",
+    "fr": "Points de terminaison API",
+    "de": "API-Endpunkte",
+    "ar": "نقاط نهاية API"
+  },
+  "Index.____authentication_with_supabase_jwt": {
+    "en": "â¢ Authentication with Supabase JWT",
+    "es": "• Autenticación con Supabase JWT",
+    "fr": "• Authentification avec Supabase JWT",
+    "de": "• Authentifizierung mit Supabase JWT",
+    "ar": "• المصادقة باستخدام Supabase JWT"
+  },
+  "Index.____image_upload_with_metadata": {
+    "en": "â¢ Image upload with metadata",
+    "es": "• Carga de imágenes con metadatos",
+    "fr": "• Téléchargement d'images avec métadonnées",
+    "de": "• Bild-Upload mit Metadaten",
+    "ar": "• تحميل الصور مع البيانات الوصفية"
+  },
+  "Index.____quality_metrics_ingestion": {
+    "en": "â¢ Quality metrics ingestion",
+    "es": "• Ingesta de métricas de calidad",
+    "fr": "• Ingestion des métriques de qualité",
+    "de": "• Aufnahme von Qualitätsmetriken",
+    "ar": "• استيعاب مقاييس الجودة"
+  },
+  "Index.____advanced_filtering_and_export": {
+    "en": "â¢ Advanced filtering and export",
+    "es": "• Filtrado avanzado y exportación",
+    "fr": "• Filtrage avancé et exportation",
+    "de": "• Erweiterte Filterung und Export",
+    "ar": "• التصفية المتقدمة والتصدير"
+  },
+  "Index.font_medium_mb_2": {
+    "en": "font-medium mb-2"
+  },
+  "APITestRunner.________case__fail___return": {
+    "en": ";\n      case 'FAIL': return",
+    "es": ";\n      caso 'FAIL': return",
+    "fr": ";\n      cas 'FAIL': return",
+    "de": ";\n      Fall 'FAIL': return",
+    "ar": "؛\n      حالة 'FAIL': return"
+  },
+  "APITestRunner.________case__skip___return": {
+    "en": ";\n      case 'SKIP': return",
+    "es": ";\n      caso 'SKIP': return",
+    "fr": ";\n      cas 'SKIP': return",
+    "de": ";\n      Fall 'SKIP': return",
+    "ar": "؛\n      حالة 'SKIP': return"
+  },
+  "APITestRunner.back_to_dashboard": {
+    "en": "Back to Dashboard",
+    "es": "Volver al panel",
+    "fr": "Retour au tableau de bord",
+    "de": "Zurück zum Dashboard",
+    "ar": "العودة إلى لوحة التحكم"
+  },
+  "APITestRunner.camera_validation_api_test_runner": {
+    "en": "Camera Validation API Test Runner",
+    "es": "Ejecutor de pruebas de API de validación de cámara",
+    "fr": "Exécuteur de tests API de validation de caméra",
+    "de": "API-Testläufer für Kameravalidierung",
+    "ar": "مشغل اختبار API للتحقق من الكاميرا"
+  },
+  "APITestRunner.running_tests___": {
+    "en": "Running Tests...",
+    "es": "Ejecutando pruebas...",
+    "fr": "Exécution des tests...",
+    "de": "Tests werden ausgeführt...",
+    "ar": "تشغيل الاختبارات..."
+  },
+  "APITestRunner._____": {
+    "en": ") : ("
+  },
+  "APITestRunner.run_all_api_tests": {
+    "en": "Run All API Tests",
+    "es": "Ejecutar todas las pruebas de API",
+    "fr": "Exécuter tous les tests API",
+    "de": "Alle API-Tests ausführen",
+    "ar": "تشغيل جميع اختبارات API"
+  },
+  "APITestRunner.success_rate": {
+    "en": "Success Rate",
+    "es": "Tasa de éxito",
+    "fr": "Taux de réussite",
+    "de": "Erfolgsrate",
+    "ar": "معدل النجاح"
+  },
+  "APITestRunner.0_____": {
+    "en": "0 && ("
+  },
+  "APITestRunner.test_results": {
+    "en": "Test Results",
+    "es": "Resultados de la prueba",
+    "fr": "Résultats des tests",
+    "de": "Testergebnisse",
+    "ar": "نتائج الاختبار"
+  },
+  "APITestRunner.response_data": {
+    "en": "Response Data",
+    "es": "Datos de respuesta",
+    "fr": "Données de réponse",
+    "de": "Antwortdaten",
+    "ar": "بيانات الاستجابة"
+  },
+  "APITestRunner.test_runner_error_": {
+    "en": "Test runner error:",
+    "es": "Error del ejecutor de pruebas:",
+    "fr": "Erreur de l'exécuteur de tests :",
+    "de": "Testläufer-Fehler:",
+    "ar": "خطأ مشغل الاختبار:"
+  },
+  "APITestRunner.container_mx_auto_p_6_space_y_6": {
+    "en": "container mx-auto p-6 space-y-6"
+  },
+  "accordion.pb_4_pt_0": {
+    "en": "pb-4 pt-0"
+  },
+  "alert-dialog.mt_2_sm_mt_0": {
+    "en": "mt-2 sm:mt-0"
+  },
+  "alert.__variantprops": {
+    "en": "& VariantProps"
+  },
+  "alert.mb_1_font_medium_leading_none_tracking_tight": {
+    "en": "mb-1 font-medium leading-none tracking-tight"
+  },
+  "avatar.aspect_square_h_full_w_full": {
+    "en": "aspect-square h-full w-full"
+  },
+  "badge.______variantprops": {
+    "en": ",\n    VariantProps"
+  },
+  "button.______variantprops": {
+    "en": ",\n    VariantProps"
+  },
+  "calendar.absolute_left_1": {
+    "en": "absolute left-1"
+  },
+  "calendar.absolute_right_1": {
+    "en": "absolute right-1"
+  },
+  "carousel._0____api__returntype": {
+    "en": "[0]\n  api: ReturnType"
+  },
+  "carousel.previous_slide": {
+    "en": "Previous slide",
+    "es": "Diapositiva anterior",
+    "fr": "Diapositive précédente",
+    "de": "Vorherige Folie",
+    "ar": "الشريحة السابقة"
+  },
+  "carousel.next_slide": {
+    "en": "Next slide",
+    "es": "Siguiente diapositiva",
+    "fr": "Diapositive suivante",
+    "de": "Nächste Folie",
+    "ar": "الشريحة التالية"
+  },
+  "carousel.min_w_0_shrink_0_grow_0_basis_full": {
+    "en": "min-w-0 shrink-0 grow-0 basis-full"
+  },
+  "carousel.absolute__h_8_w_8_rounded_full": {
+    "en": "absolute  h-8 w-8 rounded-full"
+  },
+  "carousel._left_12_top_1_2__translate_y_1_2": {
+    "en": "-left-12 top-1/2 -translate-y-1/2"
+  },
+  "carousel.absolute_h_8_w_8_rounded_full": {
+    "en": "absolute h-8 w-8 rounded-full"
+  },
+  "carousel._right_12_top_1_2__translate_y_1_2": {
+    "en": "-right-12 top-1/2 -translate-y-1/2"
+  },
+  "chart.______pick": {
+    "en": "&\n    Pick"
+  },
+  "chart._____": {
+    "en": ") : ("
+  },
+  "chart.__dark_": {
+    "en": ", dark: "
+  },
+  "command.overflow_hidden_p_0_shadow_lg": {
+    "en": "overflow-hidden p-0 shadow-lg"
+  },
+  "command.mr_2_h_4_w_4_shrink_0_opacity_50": {
+    "en": "mr-2 h-4 w-4 shrink-0 opacity-50"
+  },
+  "context-menu.ml_auto_h_4_w_4": {
+    "en": "ml-auto h-4 w-4"
+  },
+  "dropdown-menu.ml_auto_h_4_w_4": {
+    "en": "ml-auto h-4 w-4"
+  },
+  "form.__fieldpath": {
+    "en": "= FieldPath"
+  },
+  "form.__formdescriptionid____formmessageid_": {
+    "en": "${formDescriptionId} ${formMessageId}"
+  },
+  "label.______variantprops": {
+    "en": "&\n    VariantProps"
+  },
+  "menubar.ml_auto_h_4_w_4": {
+    "en": "ml-auto h-4 w-4"
+  },
+  "pagination.more_pages": {
+    "en": "More pages",
+    "es": "Más páginas",
+    "fr": "Plus de pages",
+    "de": "Mehr Seiten",
+    "ar": "المزيد من الصفحات"
+  },
+  "attr.go_to_previous_page": {
+    "en": "Go to previous page",
+    "es": "Ir a la página anterior",
+    "fr": "Aller à la page précédente",
+    "de": "Zur vorherigen Seite gehen",
+    "ar": "الانتقال إلى الصفحة السابقة"
+  },
+  "attr.go_to_next_page": {
+    "en": "Go to next page",
+    "es": "Ir a la página siguiente",
+    "fr": "Aller à la page suivante",
+    "de": "Zur nächsten Seite gehen",
+    "ar": "الانتقال إلى الصفحة التالية"
+  },
+  "pagination.gap_1_pl_2_5": {
+    "en": "gap-1 pl-2.5"
+  },
+  "pagination.gap_1_pr_2_5": {
+    "en": "gap-1 pr-2.5"
+  },
+  "progress.translatex____100____value____0____": {
+    "en": "translateX(-${100 - (value || 0)}%)"
+  },
+  "scroll-area.relative_overflow_hidden": {
+    "en": "relative overflow-hidden"
+  },
+  "sheet.____variantprops": {
+    "en": ",\n  VariantProps"
+  },
+  "sidebar.toggle_sidebar": {
+    "en": "Toggle Sidebar",
+    "es": "Alternar barra lateral",
+    "fr": "Basculer la barre latérale",
+    "de": "Seitenleiste umschalten",
+    "ar": "تبديل الشريط الجانبي"
+  },
+  "sidebar.group_menu_item_relative": {
+    "en": "group/menu-item relative",
+    "es": "grupo/elemento de menú relativo",
+    "fr": "groupe/élément de menu relatif",
+    "de": "Gruppe/Menüpunkt relativ",
+    "ar": "مجموعة/عنصر قائمة نسبي"
+  },
+  "sidebar.__math_floor_math_random_____40____50__": {
+    "en": "${Math.floor(Math.random() * 40) + 50}%"
+  },
+  "sidebar.size_4_rounded_md": {
+    "en": "size-4 rounded-md"
+  },
+  "sidebar.__": {
+    "en": " && "
+  },
+  "sonner.toaster_group": {
+    "en": "toaster group",
+    "es": "grupo de tostadora",
+    "fr": "groupe de grille-pain",
+    "de": "Toaster-Gruppe",
+    "ar": "مجموعة محمصة"
+  },
+  "table.relative_w_full_overflow_auto": {
+    "en": "relative w-full overflow-auto"
+  },
+  "toast.______variantprops": {
+    "en": "&\n    VariantProps"
+  },
+  "toggle-group.______variantprops": {
+    "en": "&\n    VariantProps"
+  },
+  "toggle.______variantprops": {
+    "en": "&\n    VariantProps"
+  },
+  "index.failed_to_fetch_images": {
+    "en": "Failed to fetch images",
+    "es": "Error al obtener imágenes",
+    "fr": "Échec de la récupération des images",
+    "de": "Fehler beim Abrufen der Bilder",
+    "ar": "فشل في جلب الصور"
+  },
+  "index.failed_to_delete_duplicate_records": {
+    "en": "Failed to delete duplicate records",
+    "es": "Error al eliminar registros duplicados",
+    "fr": "Échec de la suppression des enregistrements en double",
+    "de": "Fehler beim Löschen doppelter Datensätze",
+    "ar": "فشل في حذف السجلات المكررة"
+  },
+  "index.storage_deletion_error_": {
+    "en": "Storage deletion error:",
+    "es": "Error de eliminación de almacenamiento:",
+    "fr": "Erreur de suppression de stockage :",
+    "de": "Speicherlöschfehler:",
+    "ar": "خطأ في حذف التخزين:"
+  },
+  "index.__min____value": {
+    "en": "= min && value"
+  },
+  "index.export_query_failed": {
+    "en": "Export query failed",
+    "es": "Error en la exportación de consulta",
+    "fr": "Échec de l'exportation de la requête",
+    "de": "Exportabfrage fehlgeschlagen",
+    "ar": "فشل في تصدير الاستعلام"
+  },
+  "index.______csvrows__join_": {
+    "en": "), ...csvRows].join("
+  },
+  "index.no_file_provided": {
+    "en": "No file provided",
+    "es": "No se proporcionó archivo",
+    "fr": "Aucun fichier fourni",
+    "de": "Keine Datei bereitgestellt",
+    "ar": "لم يتم توفير ملف"
+  },
+  "index.upload_failed": {
+    "en": "Upload failed",
+    "es": "Carga fallida",
+    "fr": "Échec du téléchargement",
+    "de": "Hochladen fehlgeschlagen",
+    "ar": "فشل التحميل"
+  },
+  "index.database_insert_failed": {
+    "en": "Database insert failed",
+    "es": "Error al insertar en la base de datos",
+    "fr": "Échec de l'insertion dans la base de données",
+    "de": "Datenbankeinfügung fehlgeschlagen",
+    "ar": "فشل إدراج قاعدة البيانات"
+  },
+  "index.missing_image_id_or_metrics": {
+    "en": "Missing image_id or metrics",
+    "es": "Falta image_id o métricas",
+    "fr": "ID d'image ou métriques manquantes",
+    "de": "Fehlende Bild-ID oder Metriken",
+    "ar": "مفقود image_id أو المقاييس"
+  },
+  "index.id__created_by": {
+    "en": "id, created_by",
+    "es": "id, creado por",
+    "fr": "id, créé par",
+    "de": "id, erstellt von",
+    "ar": "معرف، تم الإنشاء بواسطة"
+  },
+  "index.image_not_found_or_access_denied": {
+    "en": "Image not found or access denied",
+    "es": "Imagen no encontrada o acceso denegado",
+    "fr": "Image non trouvée ou accès refusé",
+    "de": "Bild nicht gefunden oder Zugriff verweigert",
+    "ar": "الصورة غير موجودة أو تم رفض الوصول"
+  },
+  "index.failed_to_insert_metrics": {
+    "en": "Failed to insert metrics",
+    "es": "Error al insertar métricas",
+    "fr": "Échec de l'insertion des métriques",
+    "de": "Einfügen von Metriken fehlgeschlagen",
+    "ar": "فشل في إدراج المقاييس"
+  },
+  "index.query_failed": {
+    "en": "Query failed",
+    "es": "Consulta fallida",
+    "fr": "Échec de la requête",
+    "de": "Abfrage fehlgeschlagen",
+    "ar": "فشل الاستعلام"
+  },
+  "index.missing_image_id": {
+    "en": "Missing image_id",
+    "es": "Falta image_id",
+    "fr": "ID d'image manquant",
+    "de": "Fehlende Bild-ID",
+    "ar": "مفقود image_id"
+  },
+  "index.id__tags__notes__created_by": {
+    "en": "id, tags, notes, created_by",
+    "es": "id, etiquetas, notas, creado por",
+    "fr": "id, étiquettes, notes, créé par",
+    "de": "id, Tags, Notizen, erstellt von",
+    "ar": "معرف، علامات، ملاحظات، تم الإنشاء بواسطة"
+  },
+  "index.image_not_found_or_access_denied_1": {
+    "en": "Image not found or access denied",
+    "es": "Imagen no encontrada o acceso denegado",
+    "fr": "Image non trouvée ou accès refusé",
+    "de": "Bild nicht gefunden oder Zugriff verweigert",
+    "ar": "الصورة غير موجودة أو تم رفض الوصول"
+  },
+  "index.update_failed": {
+    "en": "Update failed",
+    "es": "Actualización fallida",
+    "fr": "Échec de la mise à jour",
+    "de": "Aktualisierung fehlgeschlagen",
+    "ar": "فشل التحديث"
+  },
+  "api-test-runner._____starting_api_tests___": {
+    "en": "ð Starting API Tests...",
+    "es": "🚀 Iniciando pruebas de API...",
+    "fr": "🚀 Démarrage des tests API...",
+    "de": "🚀 API-Tests starten...",
+    "ar": "🚀 بدء اختبارات API..."
+  },
+  "api-test-runner._____testing_authentication___": {
+    "en": "ð Testing Authentication...",
+    "es": "🔐 Probando autenticación...",
+    "fr": "🔐 Test de l'authentification...",
+    "de": "🔐 Authentifizierung testen...",
+    "ar": "🔐 اختبار المصادقة..."
+  },
+  "api-test-runner.user_already_registered": {
+    "en": "User already registered",
+    "es": "Usuario ya registrado",
+    "fr": "Utilisateur déjà enregistré",
+    "de": "Benutzer bereits registriert",
+    "ar": "المستخدم مسجل بالفعل"
+  },
+  "api-test-runner.already_exists": {
+    "en": "already exists",
+    "es": "ya existe",
+    "fr": "existe déjà",
+    "de": "existiert bereits",
+    "ar": "موجود بالفعل"
+  },
+  "api-test-runner.auth_error____error_": {
+    "en": "Auth error: ${error}",
+    "es": "Error de autenticación: ${error}",
+    "fr": "Erreur d'authentification : ${error}",
+    "de": "Authentifizierungsfehler: ${error}",
+    "ar": "خطأ في المصادقة: ${error}"
+  },
+  "api-test-runner._____testing_image_upload___": {
+    "en": "ð¸ Testing Image Upload...",
+    "es": "📸 Probando carga de imágenes...",
+    "fr": "📸 Test du téléchargement d'images...",
+    "de": "📸 Bild-Upload testen...",
+    "ar": "📸 اختبار تحميل الصور..."
+  },
+  "api-test-runner.image_upload": {
+    "en": "Image Upload",
+    "es": "Carga de imágenes",
+    "fr": "Téléchargement d'image",
+    "de": "Bild-Upload",
+    "ar": "تحميل الصور"
+  },
+  "api-test-runner.failed_to_create_test_image_blob": {
+    "en": "Failed to create test image blob",
+    "es": "Error al crear blob de imagen de prueba",
+    "fr": "Échec de la création du blob d'image de test",
+    "de": "Fehler beim Erstellen des Testbild-Blobs",
+    "ar": "فشل في إنشاء كتلة صورة الاختبار"
+  },
+  "api-test-runner.automated_api_test_upload": {
+    "en": "Automated API test upload",
+    "es": "Carga de prueba de API automatizada",
+    "fr": "Téléchargement de test API automatisé",
+    "de": "Automatisierter API-Test-Upload",
+    "ar": "تحميل اختبار API الآلي"
+  },
+  "api-test-runner.bearer___this_authtoken_": {
+    "en": "Bearer ${this.authToken}",
+    "es": "Portador ${this.authToken}",
+    "fr": "Porteur ${this.authToken}",
+    "de": "Träger ${this.authToken}",
+    "ar": "حامل ${this.authToken}"
+  },
+  "api-test-runner.successfully_uploaded_test_image": {
+    "en": "Successfully uploaded test image",
+    "es": "Imagen de prueba cargada con éxito",
+    "fr": "Image de test téléchargée avec succès",
+    "de": "Testbild erfolgreich hochgeladen",
+    "ar": "تم تحميل صورة الاختبار بنجاح"
+  },
+  "api-test-runner.unknown_error": {
+    "en": "Unknown error",
+    "es": "Error desconocido",
+    "fr": "Erreur inconnue",
+    "de": "Unbekannter Fehler",
+    "ar": "خطأ غير معروف"
+  },
+  "api-test-runner.network_error____error_": {
+    "en": "Network error: ${error}",
+    "es": "Error de red: ${error}",
+    "fr": "Erreur réseau : ${error}",
+    "de": "Netzwerkfehler: ${error}",
+    "ar": "خطأ في الشبكة: ${error}"
+  },
+  "api-test-runner.test_setup_error____error_": {
+    "en": "Test setup error: ${error}",
+    "es": "Error de configuración de prueba: ${error}",
+    "fr": "Erreur de configuration du test : ${error}",
+    "de": "Testeinrichtungsfehler: ${error}",
+    "ar": "خطأ في إعداد الاختبار: ${error}"
+  },
+  "api-test-runner._____testing_metrics_ingestion___": {
+    "en": "ð Testing Metrics Ingestion...",
+    "es": "📊 Probando la ingesta de métricas...",
+    "fr": "📊 Test de l'ingestion des métriques...",
+    "de": "📊 Metriken-Eingabe testen...",
+    "ar": "📊 اختبار إدخال المقاييس..."
+  },
+  "api-test-runner.metrics_ingestion": {
+    "en": "Metrics Ingestion",
+    "es": "Ingesta de métricas",
+    "fr": "Ingestion des métriques",
+    "de": "Metriken-Eingabe",
+    "ar": "إدخال المقاييس"
+  },
+  "api-test-runner.successfully_ingested_metrics_data": {
+    "en": "Successfully ingested metrics data",
+    "es": "Datos de métricas ingeridos con éxito",
+    "fr": "Données de métriques ingérées avec succès",
+    "de": "Metrikdaten erfolgreich aufgenommen",
+    "ar": "تم إدخال بيانات المقاييس بنجاح"
+  },
+  "api-test-runner.error____error_": {
+    "en": "Error: ${error}",
+    "es": "Error: ${error}",
+    "fr": "Erreur : ${error}",
+    "de": "Fehler: ${error}",
+    "ar": "خطأ: ${error}"
+  },
+  "api-test-runner._____testing_image_querying___": {
+    "en": "ð Testing Image Querying...",
+    "es": "🔍 Probando consulta de imágenes...",
+    "fr": "🔍 Test de la requête d'image...",
+    "de": "🔍 Bildabfrage testen...",
+    "ar": "🔍 اختبار استعلام الصور..."
+  },
+  "api-test-runner.image_querying": {
+    "en": "Image Querying",
+    "es": "Consulta de imágenes",
+    "fr": "Requête d'image",
+    "de": "Bildabfrage",
+    "ar": "استعلام الصور"
+  },
+  "api-test-runner.________testing_tag_updates___": {
+    "en": "ð·ï¸ Testing Tag Updates...",
+    "es": "🏷️ Probando actualizaciones de etiquetas...",
+    "fr": "🏷️ Test des mises à jour des étiquettes...",
+    "de": "🏷️ Tag-Updates testen...",
+    "ar": "🏷️ اختبار تحديثات العلامات..."
+  },
+  "api-test-runner.tag_updates": {
+    "en": "Tag Updates",
+    "es": "Actualizaciones de etiquetas",
+    "fr": "Mises à jour des étiquettes",
+    "de": "Tag-Updates",
+    "ar": "تحديثات العلامات"
+  },
+  "api-test-runner.updated_via_api_test": {
+    "en": "Updated via API test",
+    "es": "Actualizado a través de la prueba de API",
+    "fr": "Mis à jour via le test API",
+    "de": "Über API-Test aktualisiert",
+    "ar": "تم التحديث عبر اختبار API"
+  },
+  "api-test-runner._____testing_dataset_export___": {
+    "en": "ð¦ Testing Dataset Export...",
+    "es": "📦 Probando exportación de conjuntos de datos...",
+    "fr": "📦 Test de l'exportation de jeux de données...",
+    "de": "📦 Datensatzexport testen...",
+    "ar": "📦 اختبار تصدير مجموعات البيانات..."
+  },
+  "api-test-runner.dataset_export": {
+    "en": "Dataset Export",
+    "es": "Exportación de conjuntos de datos",
+    "fr": "Exportation de jeux de données",
+    "de": "Datensatzexport",
+    "ar": "تصدير مجموعات البيانات"
+  },
+  "api-test-runner._____testing_deduplication___": {
+    "en": "ð Testing Deduplication...",
+    "es": "🔄 Probando la desduplicación...",
+    "fr": "🔄 Test de la déduplication...",
+    "de": "🔄 Deduplizierung testen...",
+    "ar": "🔄 اختبار إزالة التكرار..."
+  },
+  "api-test-runner._n_____api_test_results_summary_": {
+    "en": "\\nð API Test Results Summary:",
+    "es": "\\n📋 Resumen de resultados de pruebas de API:",
+    "fr": "\\n📋 Résumé des résultats des tests API :",
+    "de": "\\n📋 Zusammenfassung der API-Testergebnisse:",
+    "ar": "\\n📋 ملخص نتائج اختبارات API:"
+  },
+  "api-test-runner._n_____summary_": {
+    "en": "\\nð Summary:",
+    "es": "\\n📊 Resumen:",
+    "fr": "\\n📊 Résumé :",
+    "de": "\\n📊 Zusammenfassung:",
+    "ar": "\\n📊 ملخص:"
+  },
+  "api-test-runner.____passed____passed_": {
+    "en": "â Passed: ${passed}",
+    "es": "✔️ Aprobado: ${passed}",
+    "fr": "✔️ Réussi : ${passed}",
+    "de": "✔️ Bestanden: ${passed}",
+    "ar": "✔️ تم الاجتياز: ${passed}"
+  },
+  "api-test-runner.____failed____failed_": {
+    "en": "â Failed: ${failed}",
+    "es": "❌ Fallido: ${failed}",
+    "fr": "❌ Échoué : ${failed}",
+    "de": "❌ Fehlgeschlagen: ${failed}",
+    "ar": "❌ فشل: ${failed}"
+  },
+  "api-test-runner._______skipped____skipped_": {
+    "en": "â­ï¸ Skipped: ${skipped}",
+    "es": "⏭️ Omitido: ${skipped}",
+    "fr": "⏭️ Sauté : ${skipped}",
+    "de": "⏭️ Übersprungen: ${skipped}",
+    "ar": "⏭️ تم التخطي: ${skipped}"
+  },
+  "api.1__image_upload___storage": {
+    "en": "1. Image Upload & Storage",
+    "es": "1. Carga y almacenamiento de imágenes",
+    "fr": "1. Téléchargement et stockage d'images",
+    "de": "1. Bild-Upload & Speicherung",
+    "ar": "1. تحميل الصور والتخزين"
+  },
+  "api.bearer___auth_token_": {
+    "en": "Bearer ${AUTH_TOKEN}",
+    "es": "Portador ${AUTH_TOKEN}",
+    "fr": "Porteur ${AUTH_TOKEN}",
+    "de": "Träger ${AUTH_TOKEN}",
+    "ar": "حامل ${AUTH_TOKEN}"
+  },
+  "api.invalid_jwt": {
+    "en": "Invalid JWT",
+    "es": "JWT inválido",
+    "fr": "JWT invalide",
+    "de": "Ungültiges JWT",
+    "ar": "JWT غير صالح"
+  },
+  "api.2__quality_metrics_ingestion": {
+    "en": "2. Quality Metrics Ingestion",
+    "es": "2. Ingesta de métricas de calidad",
+    "fr": "2. Ingestion des métriques de qualité",
+    "de": "2. Qualität Metriken Eingabe",
+    "ar": "2. إدخال مقاييس الجودة"
+  },
+  "api.3__advanced_image_querying": {
+    "en": "3. Advanced Image Querying",
+    "es": "3. Consulta avanzada de imágenes",
+    "fr": "3. Requête d'image avancée",
+    "de": "3. Erweiterte Bildabfrage",
+    "ar": "3. استعلام الصور المتقدم"
+  },
+  "api.4__tag___metadata_updates": {
+    "en": "4. Tag & Metadata Updates",
+    "es": "4. Actualizaciones de etiquetas y metadatos",
+    "fr": "4. Mises à jour des étiquettes et des métadonnées",
+    "de": "4. Tag- & Metadaten-Updates",
+    "ar": "4. تحديثات العلامات والبيانات الوصفية"
+  },
+  "api.updated_notes": {
+    "en": "Updated notes",
+    "es": "Notas actualizadas",
+    "fr": "Notes mises à jour",
+    "de": "Aktualisierte Notizen",
+    "ar": "ملاحظات محدثة"
+  },
+  "api.5__dataset_export": {
+    "en": "5. Dataset Export",
+    "es": "5. Exportación de conjuntos de datos",
+    "fr": "5. Exportation de jeux de données",
+    "de": "5. Datensatzexport",
+    "ar": "5. تصدير مجموعات البيانات"
+  },
+  "api.6__duplicate_detection___cleanup": {
+    "en": "6. Duplicate Detection & Cleanup",
+    "es": "6. Detección y limpieza de duplicados",
+    "fr": "6. Détection et nettoyage des doublons",
+    "de": "6. Duplikaterkennung & Bereinigung",
+    "ar": "6. اكتشاف التكرار والتنظيف"
+  },
+  "use-mobile._max_width____mobile_breakpoint___1_px_": {
+    "en": "(max-width: ${MOBILE_BREAKPOINT - 1}px)",
+    "es": "(ancho máximo: ${MOBILE_BREAKPOINT - 1}px)",
+    "fr": "(largeur max : ${MOBILE_BREAKPOINT - 1}px)",
+    "de": "(maximale Breite: ${MOBILE_BREAKPOINT - 1}px)",
+    "ar": "(أقصى عرض: ${MOBILE_BREAKPOINT - 1}px)"
+  },
+  "types.___export_type_tables": {
+    "en": "]\n\nexport type Tables",
+    "es": "]\n\nexportar tipo Tablas",
+    "fr": "]\n\nexporter type Tables",
+    "de": "]\n\nTyp Tabellen exportieren",
+    "ar": "]\n\nتصدير نوع الجداول"
+  },
+  "NotFound.oops__page_not_found": {
+    "en": "Oops! Page not found",
+    "es": "¡Vaya! Página no encontrada",
+    "fr": "Oups ! Page non trouvée",
+    "de": "Hoppla! Seite nicht gefunden",
+    "ar": "عذرًا! الصفحة غير موجودة"
+  },
+  "NotFound.return_to_home": {
+    "en": "Return to Home",
+    "es": "Volver a inicio",
+    "fr": "Retour à l'accueil",
+    "de": "Zurück zur Startseite",
+    "ar": "العودة إلى الصفحة الرئيسية"
+  },
+  "tailwind.calc_var___radius____2px_": {
+    "en": "calc(var(--radius) - 2px)"
+  },
+  "tailwind.calc_var___radius____4px_": {
+    "en": "calc(var(--radius) - 4px)"
+  },
+  "Index.camera_validation_system": {
+    "en": "Camera Validation System",
+    "es": "Sistema de validación de cámaras",
+    "fr": "Système de validation des caméras",
+    "de": "Kamera-Validierungssystem",
+    "ar": "نظام التحقق من الكاميرا"
+  },
+  "vite.__path_resolve___dirname_": {
+    "en": ": path.resolve(__dirname, "
+  },
+  "Index.image_upload": {
+    "en": "Image Upload",
+    "es": "Carga de imágenes",
+    "fr": "Téléchargement d'image",
+    "de": "Bild-Upload",
+    "ar": "تحميل الصور"
+  },
+  "Index.post__functions_v1_image_upload": {
+    "en": "POST /functions/v1/image-upload"
+  },
+  "Index.quality_metrics": {
+    "en": "Quality Metrics",
+    "es": "Métricas de calidad",
+    "fr": "Métriques de qualité",
+    "de": "Qualitätsmetriken",
+    "ar": "مقاييس الجودة"
+  },
+  "Index.ingest_detailed_image_quality_measurements": {
+    "en": "Ingest detailed image quality measurements",
+    "es": "Ingesta de mediciones detalladas de calidad de imagen",
+    "fr": "Ingestion de mesures détaillées de la qualité de l'image",
+    "de": "Aufnahme detaillierter Bildqualitätsmessungen",
+    "ar": "إدخال قياسات جودة الصورة التفصيلية"
+  },
+  "Index.post__functions_v1_metrics_ingest": {
+    "en": "POST /functions/v1/metrics-ingest"
+  },
+  "Index.advanced_querying": {
+    "en": "Advanced Querying",
+    "es": "Consulta avanzada",
+    "fr": "Requête avancée",
+    "de": "Erweiterte Abfrage",
+    "ar": "استعلام متقدم"
+  },
+  "Index.get__functions_v1_query_images": {
+    "en": "GET /functions/v1/query-images"
+  },
+  "Index.metadata_updates": {
+    "en": "Metadata Updates",
+    "es": "Actualizaciones de metadatos",
+    "fr": "Mises à jour des métadonnées",
+    "de": "Metadaten-Updates",
+    "ar": "تحديثات البيانات الوصفية"
+  },
+  "Index.update_tags_and_notes_for_existing_images": {
+    "en": "Update tags and notes for existing images",
+    "es": "Actualizar etiquetas y notas para imágenes existentes",
+    "fr": "Mettre à jour les étiquettes et les notes pour les images existantes",
+    "de": "Tags und Notizen für vorhandene Bilder aktualisieren",
+    "ar": "تحديث العلامات والملاحظات للصور الموجودة"
+  },
+  "Index.post__functions_v1_update_tags": {
+    "en": "POST /functions/v1/update-tags"
+  },
+  "Index.dataset_export": {
+    "en": "Dataset Export",
+    "es": "Exportación de conjuntos de datos",
+    "fr": "Exportation de jeux de données",
+    "de": "Datensatzexport",
+    "ar": "تصدير مجموعات البيانات"
+  },
+  "Index.export_filtered_datasets_for_analysis": {
+    "en": "Export filtered datasets for analysis",
+    "es": "Exportar conjuntos de datos filtrados para análisis",
+    "fr": "Exporter des ensembles de données filtrés pour analyse",
+    "de": "Gefilterte Datensätze für die Analyse exportieren",
+    "ar": "تصدير مجموعات البيانات المصفاة للتحليل"
+  },
+  "Index.post__functions_v1_export_dataset": {
+    "en": "POST /functions/v1/export-dataset"
+  },
+  "Index.duplicate_detection": {
+    "en": "Duplicate Detection",
+    "es": "Detección de duplicados",
+    "fr": "Détection de doublons",
+    "de": "Duplikaterkennung",
+    "ar": "اكتشاف التكرار"
+  },
+  "Index.identify_and_manage_duplicate_images": {
+    "en": "Identify and manage duplicate images",
+    "es": "Identificar y gestionar imágenes duplicadas",
+    "fr": "Identifier et gérer les images en double",
+    "de": "Doppelte Bilder identifizieren und verwalten",
+    "ar": "تحديد وإدارة الصور المكررة"
+  },
+  "Index.post__functions_v1_deduplication_job": {
+    "en": "POST /functions/v1/deduplication-job"
+  },
+  "Index.test_api_endpoints": {
+    "en": "Test API Endpoints",
+    "es": "Probar puntos finales de API",
+    "fr": "Tester les points de terminaison de l'API",
+    "de": "API-Endpunkte testen",
+    "ar": "اختبار نقاط نهاية API"
+  },
+  "Index.view_documentation": {
+    "en": "View Documentation",
+    "es": "Ver documentación",
+    "fr": "Voir la documentation",
+    "de": "Dokumentation anzeigen",
+    "ar": "عرض الوثائق"
+  },
+  "Index.test_data_available": {
+    "en": "Test Data Available",
+    "es": "Datos de prueba disponibles",
+    "fr": "Données de test disponibles",
+    "de": "Testdaten verfügbar",
+    "ar": "بيانات الاختبار المتاحة"
+  },
+  "Index.sample_images": {
+    "en": "Sample Images",
+    "es": "Imágenes de muestra",
+    "fr": "Images d'exemple",
+    "de": "Beispielbilder",
+    "ar": "صور عينة"
+  }
+}
